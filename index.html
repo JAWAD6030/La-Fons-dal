@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>LA FONS'DAL</title>
+    
+</head>
+<body>
+    <h1 align="center"><img src="./image/LOGO FONS'DAL.PNG" alt="FONS'DAL"></h1> 
+    <table align="center">
+        <tbody>  
+            <tr>
+            <td> <h3>BOISSON</h3> </td> 
+            </tr>
+            <tr id="P1">
+              
+                <td>EAU</td>
+                <td>0.5€</td>
+                <td>
+                    <button onclick="ajouterAupanier('P1')">ajouter</button>
+                    <button onclick="retirerDuPanier('P1')">Retirer</button>
+                </td>
+            </tr>
+            <tr id="P2">
+                <td> <a href="./image/COCA.jpg">COCA</a> </td>
+                <td>1€</td>
+                <td><button onclick="ajouterAupanier('P2')">ajouter</button>
+                    <button onclick="retirerDuPanier('P2')">Retirer</button>
+                </td>
+                
+            </tr>
+            <tr id="P3">
+               <td> <a href="./image/POMS.png">POMS</a> </td>
+                <td>1€</td>
+                <td><button onclick="ajouterAupanier('P3')">ajouter</button>
+                    <button onclick="retirerDuPanier('P3')">Retirer</button>
+                </td>
+            </tr>
+            <tr id="P4">
+                <td><a href="./image/REDBULL.jpg" >REDBULL</a></td>
+                <td>2€</td> 
+                
+                <td><button onclick="ajouterAupanier('P4')">ajouter</button>
+                    <button onclick="retirerDuPanier('P4')">Retirer</button>
+                </td>
+            </tr>
+            <tr id="P5">
+                <td>ICE TEA Peche</td>
+                <td>1€</td>
+               
+                <td><button onclick="ajouterAupanier('P5')">ajouter</button>
+                    <button onclick="retirerDuPanier('P5')">Retirer</button>
+                </td>
+            </tr>
+            <tr id="P6">
+                <td>ICE TEA Pètillant citron</td>
+                <td>1€</td>
+              
+                <td><button onclick="ajouterAupanier('P6')">ajouter</button>
+                    <button onclick="retirerDuPanier('P6')">Retirer</button>
+                </td>
+            </tr>
+            <tr id="P7">
+                <td>CHRISTALINE Fraise</td>
+                <td>1€</td>
+                
+                <td><button onclick="ajouterAupanier('P7')">ajouter</button>
+                    <button onclick="retirerDuPanier('P7')">Retirer</button>
+                </td>
+            </tr>
+            <tr id="P8">
+                <td>OASIS Fraise</td>
+                <td>1€</td>
+               
+                <td><button onclick="ajouterAupanier('P8')">ajouter</button>
+                    <button onclick="retirerDuPanier('P8')">Retirer</button>
+                </td>
+            </tr>
+            <tr id="P9">
+                <td>OASIS Tropical</td>
+                <td>1€</td>
+                
+                <td><button onclick="ajouterAupanier('P9')">ajouter</button>
+                    <button onclick="retirerDuPanier('P9')">Retirer</button>
+                </td>
+            </tr>
+            <tr id="P10">
+                <td>FANTA Fraise</td>
+                <td>1€</td>
+                
+                <td><button onclick="ajouterAupanier('P10')">ajouter</button>
+                    <button onclick="retirerDuPanier('P10')">Retirer</button>
+                </td>
+            </tr>
+            <tr id="P11">
+                <td>FRISTIE</td>
+                <td>2€</td>
+                
+                <td><button onclick="ajouterAupanier('P11')">ajouter</button>
+                    <button onclick="retirerDuPanier('P11')">Retirer</button>
+                </td>
+            </tr>
+            <tr id="P12">
+                <td>SPRITE</td>
+                <td>1€</td>
+                
+                <td><button onclick="ajouterAupanier('P12')">ajouter</button>
+                    <button onclick="retirerDuPanier('P12')">Retirer</button>
+                </td>
+            </tr>
+            <tr id="P13">
+                <td>CAPRI-SUN</td>
+                <td>0.5€</td>
+                
+                <td><button onclick="ajouterAupanier('P13')">ajouter</button>
+                    <button onclick="retirerDuPanier('P13')">Retirer</button>
+                </td>
+            </tr>
+            <td><h3>CHIPS</h3></td> 
+            <tr id="P14">
+                <td>WOOKLES paprika</td>
+                <td>1€</td>
+                
+                <td><button onclick="ajouterAupanier('P14')">ajouter</button>
+                    <button onclick="retirerDuPanier('P14')">Retirer</button>
+                </td>
+            </tr>
+            <tr id="P15">
+                <td>BUGGLES</td>
+                <td>1€</td>
+                
+                <td><button onclick="ajouterAupanier('P15')">ajouter</button>
+                    <button onclick="retirerDuPanier('P15')">Retirer</button>
+                </td>
+            </tr>
+            <!-- <tr id="P16">
+                <td>LaysPickles</td>
+                <td>1€</td>
+                
+                <td><button onclick="ajouterAupanier('P16')">ajouter</button>
+                    <button onclick="retirerDuPanier('P16')">Retirer</button>
+                </td> -->
+            </tr>
+            <tr id="P17">
+                <td>LAYS sel</td>
+                <td>1€</td>
+         
+                <td><button onclick="ajouterAupanier('P17')">ajouter</button>
+                    <button onclick="retirerDuPanier('P17')">Retirer</button>
+                </td>
+            </tr>
+            <tr id="P18">
+                <td>LAYS Paprika</td>
+                <td>1€</td>
+                
+                <td><button onclick="ajouterAupanier('P18')">ajouter</button>
+                    <button onclick="retirerDuPanier('P18')">Retirer</button>
+                </td>
+            </tr>
+            <tr id="P19">
+                <td>GRILLS</td>
+                <td>1€</td>
+               
+                <td><button onclick="ajouterAupanier('P19')">ajouter</button>
+                    <button onclick="retirerDuPanier('P19')">Retirer</button>
+                </td>
+            </tr>
+            <tr id="P20">
+                <td>DORITOS nachos</td>
+                <td>1€</td>
+            
+                <td><button onclick="ajouterAupanier('P20')">ajouter</button>
+                    <button onclick="retirerDuPanier('P20')">Retirer</button>
+                </td>
+            </tr>
+            <tr id="P21">
+                <td>DORITOS Bleu</td>
+                <td>1€</td>
+                
+                <td><button onclick="ajouterAupanier('P21')">ajouter</button>
+                    <button onclick="retirerDuPanier('P21')">Retirer</button>
+                </td>
+            </tr>
+            <tr id="P22">
+                <td>DORITOS Rouge</td>
+                <td>1€</td>
+                
+                <td><button onclick="ajouterAupanier('P22')">ajouter</button>
+                    <button onclick="retirerDuPanier('P22')">Retirer</button>
+                </td>
+            </tr>
+            <tr id="P23">
+                <td>LAYS Burger</td>
+                <td>1€</td>
+                
+                <td><button onclick="ajouterAupanier('P23')">ajouter</button>
+                    <button onclick="retirerDuPanier('P23')">Retirer</button></td>
+            </tr>
+            <tr id="P24">
+                <td>LAYS poivre&sel</td>
+                <td>1€</td>
+                
+                <td><button onclick="ajouterAupanier('P24')">ajouter</button>
+                    <button onclick="retirerDuPanier('P24')">Retirer</button>
+                </td>
+            </tr>
+            <tr id="P25">
+                <td>CHEETOS</td>
+                <td>1€</td>
+                
+                <td><button onclick="ajouterAupanier('P25')">ajouter</button>
+                    <button onclick="retirerDuPanier('P25')">Retirer</button>
+                </td>
+            </tr>
+             <td><h3>CHOCOLAT</h3></td>
+             <tr id="P26">
+                <td>SNICKERS</td>
+                <td>1€</td>
+             
+                <td><button onclick="ajouterAupanier('P26')">ajouter</button>
+                    <button onclick="retirerDuPanier('P26')">Retirer</button>
+                </td>
+            </tr>
+            <tr id="P27">
+                <td>KINDER BUENO</td>
+                <td>1€</td>
+              
+                <td><button onclick="ajouterAupanier('P27')">ajouter</button>
+                    <button onclick="retirerDuPanier('P27')">Retirer</button>
+                </td>
+            </tr>
+            <tr id="P28">
+                <td>KINDER DELICE</td>
+                <td>1€</td>
+                
+                <td><button onclick="ajouterAupanier('P28')">ajouter</button>
+                    <button onclick="retirerDuPanier('P28')">Retirer</button>
+                </td>
+            </tr>
+            <tr id="P29">
+                <td>B-READY Nutella</td>
+                <td>1€</td>
+                
+                <td><button onclick="ajouterAupanier('P29')">ajouter</button>
+                    <button onclick="retirerDuPanier('P29')">Retirer</button>
+                </td>
+            </tr>
+            <tr id="P30">
+                <td>NUSSINI</td>
+                <td>1€</td>
+                
+                <td><button onclick="ajouterAupanier('P30')">ajouter</button>
+                    <button onclick="retirerDuPanier('P30')">Retirer</button>
+                </td>
+            </tr>
+           
+            <tr id="P31">
+                <td>MILKA oreo</td>
+                <td>1€</td>
+               
+                <td><button onclick="ajouterAupanier('P31')">ajouter</button>
+                    <button onclick="retirerDuPanier('P31')">Retirer</button>
+                </td>
+            </tr>
+            <tr id="P32">
+                <td>MILKA Brownie</td>
+                <td>1€</td>
+                <td><button onclick="ajouterAupanier('P32')">ajouter</button>
+                    <button onclick="retirerDuPanier('P32')">Retirer</button>
+                </td>
+            </tr>
+            <tr id="P33">
+                <td>CHACHA</td>
+                <td>1€</td>
+                <td><button onclick="ajouterAupanier('P33')">ajouter</button>
+                    <button onclick="retirerDuPanier('P33')">Retirer</button>
+                </td>
+                <tr id="P34">
+                    <td>LEO</td>
+                    <td>1€</td>
+                    <td><button onclick="ajouterAupanier('P34')">ajouter</button>
+                        <button onclick="retirerDuPanier('P34')">Retirer</button>
+                    </td>
+                </tr>
+                <tr id="P35">
+                    <td>LION</td>
+                    <td>1€</td>
+                    <td><button onclick="ajouterAupanier('P35')">ajouter</button>
+                        <button onclick="retirerDuPanier('P35')">Retirer</button>
+                    </td>
+                    <tr id="P36">
+                        <td>M&Ms</td>
+                        <td>1€</td>
+                        <td><button onclick="ajouterAupanier('P36')">ajouter</button>
+                            <button onclick="retirerDuPanier('P36')">Retirer</button>
+                        </td>
+                    </tr>
+                    <tr id="P37">
+                        <td>PICK UP</td>
+                        <td>1€</td>
+                        <td><button onclick="ajouterAupanier('P37')">ajouter</button>
+                            <button onclick="retirerDuPanier('P37')">Retirer</button>
+                        </td>
+                         <!-- <tr id="P38"> 
+                            <td>Milka Brownie</td>
+                            <td>1€</td>
+                            <td><button onclick="ajouterAupanier('P38')">ajouter</button>
+                                <button onclick="retirerDuPanier('P38')">Retirer</button>
+                            </td> -->
+                        </tr>
+                        <tr id="P39">
+                            <td>Cote d'or chocolat lait</td>
+                            <td>1€</td>
+                            <td><button onclick="ajouterAupanier('P39')">ajouter</button>
+                                <button onclick="retirerDuPanier('P39')">Retirer</button>
+                            </td>
+                            <tr id="40">
+                                <td>ROLO</td>
+                                <td>1€</td>
+                                <td><button onclick="ajouterAupanier('P40')">ajouter</button>
+                                    <button onclick="retirerDuPanier('P40')">Retirer</button>
+                                </td>
+                            </tr>
+                            <tr id="P41">
+                                <td>GALAK</td>
+                                <td>1€</td>
+                                <td><button onclick="ajouterAupanier('P41')">ajouter</button>
+                                    <button onclick="retirerDuPanier('P41')">Retirer</button>
+                                </td>    
+
+            </tr>
+            <td><h3>FRIANDISE</h3></td> 
+            <tr id="P42">
+                <td>BONBON Maison</td>
+                <td>1€</td>
+                <td><button onclick="ajouterAupanier('P42')">ajouter</button>
+                    <button onclick="retirerDuPanier('P42')">Retirer</button>
+                </td>
+            </tr>
+            <tr id="P43">
+                <td>FINI cola</td>
+                <td>1€</td>
+                <td><button onclick="ajouterAupanier('P43')">ajouter</button>
+                    <button onclick="retirerDuPanier('P43')">Retirer</button>
+                </td>
+            </tr>
+            <tr id="P44">
+                <td>HARIBO Frutti</td>
+                <td>1€</td>
+                <td><button onclick="ajouterAupanier('P44')">ajouter</button>
+                    <button onclick="retirerDuPanier('P44')">Retirer</button>
+                </td>
+            </tr>
+
+
+           <td><h2>Tes Munitions</h2></td>
+    
+        <tbody id= "mon_panier">
+        </tbody>
+    
+   <td> <input type="text" id="prix_tot" value= "0" disabled="disabled"><span>€</span></td>
+   
+    <script src="panierscript.js"></script>  
+</body>
+</html>
